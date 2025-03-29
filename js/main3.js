@@ -3,7 +3,11 @@
  * 
  * Input: hoTen, tongTN, nguoiPhuThuoc
  * 
- * Process:
+ * Process: 
+ * +Lấy giá trị từ form
+ * +Tính thu nhập chịu thuế
+ * +Xét điều kiện tính thuế thu nhập cá nhân
+ * +Hiện kết quả
  * 
  * Output: Thuế thu nhập cá nhân
  */
@@ -16,7 +20,7 @@ let thueTNCN = 0
 
 const tinhThuNhapCT = (tongTN, nguoiPhuThuoc) => {
     let thuNhapChiuThue = tongTN - 4000000 - nguoiPhuThuoc * 1600000;
-    return thuNhapChiuThue; // Trả về tổng điểm
+    return thuNhapChiuThue; 
 }
 
 

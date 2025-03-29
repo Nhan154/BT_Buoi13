@@ -1,4 +1,16 @@
-
+/**
+ * IPO
+ * 
+ * Input: maKH, loaiKH, soKetNoi, soKenhCaoCap
+ * 
+ * Process: 
+ * +Lấy giá trị từ form
+ * +xét điều kiện hiển thị số kết nối
+ * +Tính tiền
+ * +Hiện kết quả
+ * 
+ * Output: Tổng thuế phải đóng 
+ */
 
 
 function hienThiKetNoi() {
