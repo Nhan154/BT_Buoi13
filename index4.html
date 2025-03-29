@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <label for="maKH">Mã khách hàng:</label>
+    <input type="text" id="maKH"><br><br>
+
+    <label for="loaiKH">Loại khách hàng:</label>
+    <select id="loaiKH" onchange="hienThiKetNoi()">
+        <option value="nhaDan">Nhà dân</option>
+        <option value="doanhNghiep">Doanh nghiệp</option>
+    </select><br><br>
+
+    <label for="soKetNoi" id="labelKetNoi" class="hidden">Số kết nối:</label>
+    <input type="number" id="soKetNoi" class="hidden"><br><br>
+
+    <label for="soKenh">Số kênh cao cấp:</label>
+    <input type="number" id="soKenh"><br><br>
+
+    <button onclick="tinhTien()">Tính hóa đơn</button>
+
+    <h3>Kết quả:</h3>
+    <p id="result"></p>
+
+    <script src="./js/main4.js"></script>
+</body>
+</html>
